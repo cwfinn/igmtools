@@ -1,0 +1,10 @@
+include README.rst LICENCE.rst
+include ez_setup.py
+
+include igmtools/data/data/*
+include igmtools/modeling/config/*
+include igmtools/modeling/data/*
+include igmtools/photometry/data/*
+inclide igmtools/plot/config/*
+
+prune build
